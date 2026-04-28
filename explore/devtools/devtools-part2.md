@@ -1,0 +1,2 @@
+1. The bug was in the caculate sum function, it took the inputs as strings so when we were to add them together, it would just concatenate them together instead.
+2. To fix this bug, I have to make num1 and num2 into integer types instead of string type before calling caculateSum. 
